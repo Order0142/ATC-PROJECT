@@ -1,9 +1,17 @@
 .main {
     width: 100%;
-    padding: 118px 113px;
+    padding: 118px 110px;
     background-image: url(../../asset/image/footer-bg.png);
 }
 .footer {
-    width: 80%;
+    width: 85%;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 2;
+    font-family: 'Mulish';
+    color: white;
+}
+p {
+    font-size: 12px;
 }

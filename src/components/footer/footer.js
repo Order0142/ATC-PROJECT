@@ -29,7 +29,7 @@ const Footer = () => {
           <p>Hongkong</p>
           <p>Canada</p>
         </div>
-        <div>
+        <div className={classes.help}>
           <h3>Help</h3>
           <p>Help center</p>
           <p>Contact support</p>
