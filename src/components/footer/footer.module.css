@@ -1,0 +1,9 @@
+.main {
+    width: 100%;
+    padding: 118px 113px;
+    background-image: url(../../asset/image/footer-bg.png);
+}
+.footer {
+    width: 80%;
+    display: flex;
+}
