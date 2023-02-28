@@ -1,4 +1,4 @@
-import MainLayout from "./layout/mainLayout/mainLayout";
+
 import Router from "./router";
 
 function App() {
