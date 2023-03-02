@@ -1,0 +1,20 @@
+.main {
+  width: 100%;
+}
+.service {
+  width: 85%;
+  margin: 0 auto;
+}
+.serviceContent {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+.serviceContent h3 {
+  font-weight: 700;
+  font-size: 30px;
+}
+.serviceContent p {
+  color: #7d7987;
+  margin-top: 10px;
+}

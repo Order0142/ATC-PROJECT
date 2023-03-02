@@ -1,9 +1,13 @@
-import React from 'react'
+import Hero from "../../components/landing/hero/hero";
+import OurService from "../../components/landing/ourService/ourService";
 
 const Landing = () => {
   return (
-    <div>Landing</div>
-  )
-}
+    <div>
+      <Hero />
+      <OurService />
+    </div>
+  );
+};
 
-export default Landing
+export default Landing;
