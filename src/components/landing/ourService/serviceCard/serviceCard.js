@@ -1,5 +1,5 @@
 import classes from "./serviceCard.module.css";
-import Search from "../../../../asset/image/search.svg";
+
 
 const ServiceCard = ({ image, word, title }) => {
   return (
