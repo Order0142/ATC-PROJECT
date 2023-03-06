@@ -1,9 +1,26 @@
 .main {
   width: 100%;
+  background-color: #fff;
 }
-.service {
+.main .service {
   width: 85%;
   margin: 0 auto;
+  position: relative;
+}
+.eclipse,
+.dot {
+  position: absolute;
+  z-index: 1;
+}
+.eclipse {
+  width: 55%;
+  top: 110px;
+  left: -120px;
+}
+.dot{
+  right: 0;
+  top: 50%;
+  width: 10%;
 }
 .serviceContent {
   text-align: center;
@@ -17,4 +34,18 @@
 .serviceContent p {
   color: #7d7987;
   margin-top: 10px;
+}
+.cards {
+  width: 90%;
+  margin: 80px auto 69px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 3fr));
+  grid-gap: 40px;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+}
+.btn > button{
+  width: 15%;
 }

@@ -1,6 +1,9 @@
 import { serviceData } from "../../../constants/index.";
 import classes from "./ourService.module.css";
 import ServiceCard from "./serviceCard/serviceCard";
+import Eclipse from "../../../asset/image/eclipse.svg";
+import Dots from "../../../asset/image/dots.svg";
+import Button from "../../button/button";
 
 const OurService = () => {
   return (
@@ -15,11 +18,16 @@ const OurService = () => {
             suitable for your health
           </p>
         </div>
-        <div>
+        <div className={classes.cards}>
           {serviceData.map((item, i) => (
             <ServiceCard {...item} key={i} />
           ))}
         </div>
+        <div className={classes.btn}>
+          <Button title="Learn More" />
+        </div>
+        <img src={Eclipse} alt="icon" className={classes.eclipse} />
+        <img src={Dots} alt="icon" className={classes.dot} />
       </div>
     </div>
   );

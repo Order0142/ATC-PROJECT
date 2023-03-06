@@ -1,0 +1,21 @@
+.main {
+  padding: 12px 30px;
+  background: transparent;
+  border: 1.4px solid #458ff6;
+  color: #458ff6;
+  border-radius: 55px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.btnBg {
+  background-color: #458ff6;
+  color: #fff;
+}
+.main:hover {
+  background-color: #458ff6;
+  color: #fff;
+}
+.btnBg:hover {
+  background: transparent;
+  color: #458ff6;
+}
