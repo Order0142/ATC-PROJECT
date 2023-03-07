@@ -1,0 +1,66 @@
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.carousel {
+  /* width: 900; */
+  padding: 50px 80px 70px;
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+  border-radius: 24px;
+}
+.slideContent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.slideContent h3 {
+  font-size: 30px;
+  color: #fff;
+}
+.slideContent span {
+  display: block;
+  width: 56px;
+  margin-top: 24px;
+  height: 2px;
+  background-color: #fff;
+  border-radius: 6px;
+}
+.main section {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main section div,
+.main section .article {
+  width: 45%;
+}
+.main section div {
+  display: flex;
+  align-items: center;
+}
+.main section div > img {
+  margin-right: 25px;
+}
+.main section div article h4 {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.main section div article p {
+  font-size: 15px;
+  color: #fff;
+}
+.main section .article {
+  font-size: 17px;
+  line-height: 25px;
+  color: #fff;
+}
+.splide {
+  width: 900px;
+  margin: 0 auto;
+}

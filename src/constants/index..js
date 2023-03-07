@@ -1,5 +1,6 @@
 import Search from "../asset/image/search.svg";
 import Bottle from "../asset/image/bottle.svg";
+import Avatar from "../asset/image/avatar.svg";
 
 export const serviceData = [
   {
@@ -31,5 +32,32 @@ export const serviceData = [
     image: Search,
     title: "Search Doctor",
     word: "Choose your doctor from thousands of specialist, general, and trusted hospitals",
+  },
+];
+
+export const slideData = [
+  {
+    heading: "What our customer are saying",
+    image: Avatar,
+    title: "Edward Newgate",
+    subtitle: "Founder Circle",
+    article:
+      "“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”",
+  },
+  {
+    heading: "What our customer are saying",
+    image: Avatar,
+    title: "Yusuf Bankole",
+    subtitle: "Founder Circle",
+    article:
+      "“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”",
+  },
+  {
+    heading: "What our customer are saying",
+    image: Avatar,
+    title: "Gbenga Adewale",
+    subtitle: "Founder Circle",
+    article:
+      "“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”",
   },
 ];
