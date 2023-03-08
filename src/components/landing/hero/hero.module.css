@@ -1,7 +1,7 @@
 .main {
   width: 100%;
   padding: 30px 0;
-  margin: 80px auto;
+  margin: 50px auto;
 }
 .hero {
   width: 85%;
@@ -24,19 +24,9 @@
   line-height: 32px;
   color: #7d7987;
 }
-/* .main button {
-  padding: 10px;
-  font-size: 15px;
-  border-radius: 20px;
-  width: 200px;
-  margin: 45px 0;
-  color: white;
-  border: 1px solid #458ff6;
-  background-color: #458ff6;
+.text button {
+  margin: 30px 0;
 }
-.main button:hover {
-  background-color: blue;
-} */
 .hero div img {
   width: 650px;
   height: 598px;

@@ -1,11 +1,12 @@
 import classes from "./mobileapp.module.css";
 import Button from "../../button/button";
+import SecImg3 from "../../../asset/image/secImg3.png"
 
 const Mobileapp = () => {
   return (
     <div className={classes.main}>
       <div className={classes.mobileapp}>
-        <div>
+        <div className={classes.text}>
           <h3>Download our mobile apps</h3>
           <span></span>
           <p>
@@ -16,7 +17,7 @@ const Mobileapp = () => {
           <Button title="Download" />
         </div>
         <div>
-          <img src={null} alt="" />
+          <img src={SecImg3} alt="" />
         </div>
       </div>
     </div>
