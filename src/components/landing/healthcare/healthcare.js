@@ -1,11 +1,12 @@
 import classes from "./healthcare.module.css";
+import SecImg2 from "../../../asset/image/secImg2.png"
 
 const Healthcare = () => {
   return (
     <div className={classes.main}>
       <div className={classes.healthcare}>
         <div>
-          <img src={null} alt="" />
+          <img src={SecImg2} alt="icon" />
         </div>
         <div>
           <h3>Leading healthcare providers</h3>
