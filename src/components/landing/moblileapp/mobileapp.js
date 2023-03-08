@@ -14,7 +14,7 @@ const Mobileapp = () => {
             access information instantaneously (no tedeous form, long calls, or
             administrative hassle) and securely
           </p>
-          <Button title="Download" />
+          <Button title="Download &#129047;" />
         </div>
         <div>
           <img src={SecImg3} alt="" />
