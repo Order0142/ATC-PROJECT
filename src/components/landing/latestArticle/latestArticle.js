@@ -5,6 +5,9 @@ const LatestArticle = () => {
     <div className={classes.main}>
       <div className={classes.article}>
         <div className={classes.articleContent}>
+          <h3>Check out our latest article</h3>
+        </div>
+        <div className={classes.cards}>
 
         </div>
       </div>
