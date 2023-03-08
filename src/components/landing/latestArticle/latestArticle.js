@@ -1,4 +1,6 @@
+import { articleCard } from "../../../constants/index.";
 import classes from "./latestArticle.module.css";
+import Articlecard from "./articlecard/articlecard";
 
 const LatestArticle = () => {
   return (
@@ -8,11 +10,13 @@ const LatestArticle = () => {
           <h3>Check out our latest article</h3>
         </div>
         <div className={classes.cards}>
-
+          {articleCard.map((item, i) => (
+            <Articlecard {...item} key={i} />
+          ))}
         </div>
       </div>
     </div>
   );
 };
 
-export default L;
+export default LatestArticle;

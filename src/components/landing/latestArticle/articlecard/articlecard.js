@@ -1,6 +1,6 @@
 import classes from "./articlecard.module.css";
 
-export const Articlecard = () => {
+const Articlecard = ({ image, title, word}) => {
   return (
     <div className={classes.main}>
       <img src={image} alt="" />
@@ -12,3 +12,5 @@ export const Articlecard = () => {
     </div>
   );
 };
+
+export default Articlecard;

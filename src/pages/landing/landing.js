@@ -3,6 +3,7 @@ import Hero from "../../components/landing/hero/hero";
 import OurService from "../../components/landing/ourService/ourService";
 import Healthcare from "../../components/landing/healthcare/healthcare"
 import Mobileapp from "../../components/landing/moblileapp/mobileapp";
+import LatestArticle from "../../components/landing/latestArticle/latestArticle";
 
 const Landing = () => {
   return (
@@ -12,6 +13,7 @@ const Landing = () => {
       <Healthcare />
       <Mobileapp />
       <Carousel />
+      <LatestArticle />
     </div>
   );
 };
