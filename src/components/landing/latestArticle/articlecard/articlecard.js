@@ -1,16 +1,17 @@
-import classes from "./articlecard.module.css";
+import { Link } from "react-router-dom";
+import classes from "./articleCard.module.css";
 
-const Articlecard = ({ image, title, word}) => {
+const ArticleCard = ({ image, word, title}) => {
   return (
     <div className={classes.main}>
       <img src={image} alt="" />
       <div>
         <h3>{title}</h3>
         <p>{word}</p>
-        <link>Read more &#129046;</link>
+        <Link>Read more &#129046</Link>
       </div>
     </div>
   );
 };
 
-export default Articlecard;
+export default ArticleCard;

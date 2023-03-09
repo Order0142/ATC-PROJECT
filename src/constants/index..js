@@ -65,7 +65,7 @@ export const slideData = [
   },
 ];
 
-export const articleCard = [
+export const articleData = [
   {
     image: ArtImg1,
     title: "Disease detection, check up in the laboratory",
