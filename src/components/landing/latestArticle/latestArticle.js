@@ -1,6 +1,6 @@
 import { articleData } from "../../../constants/index.";
 import classes from "./latestArticle.module.css";
-import ArticleCard from "./articlecard/articleCard";
+import ArticleCard from "./articlecard/articlecard";
 
 const LatestArticle = () => {
   return (

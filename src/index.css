@@ -10,3 +10,24 @@ body, button{
  .header nav .active {
   color: #1f1534!important;
 }
+.splide__pagination__page {
+  width: 29px;
+  height: 7px;
+  background: rgba(205, 155, 92, 0.2);
+  margin: 10px 2px;
+  border-radius: 17px;
+  border: none;
+}
+.splide__pagination__page.is-active {
+  background: #11088a;  
+}
+.splide__arrows{
+width: 50%;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+
+}
+.splide__arrow--prev.active svg path{
+  fill: #7e9dc8;
+}
