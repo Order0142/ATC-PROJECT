@@ -3,6 +3,8 @@ import Avatar from "../../../asset/image/avatar.svg";
 import { slideData } from "../../../constants/index.";
 import { Splide, SplideTrack, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css/core";
+import { ReactComponent as RightArrow } from "../../../asset/image/rightArrow.svg";
+import { ReactComponent as LeftArrow } from "../../../asset/image/leftArrow.svg";
 
 const Carousel = () => {
   return (
@@ -13,10 +15,9 @@ const Carousel = () => {
           options={{
             type: "slide",
             rewind: true,
-            arrows: false,
+            pagination: true,
             pauseOnHover: false,
-            autoplay: true,
-            interval: 3000,
+            autoplay: false,
             //   mediaQuery: "max",
             //   breakpoints: {
             //     1024: {
@@ -29,7 +30,7 @@ const Carousel = () => {
             //   },
           }}
         >
-          <SplideTrack className={classes.splide}>
+          <SplideTrack className={classes.splide} aria-label="...">
             {slideData.map((item, i) => (
               <SplideSlide key={i}>
                 <div className={classes.carousel}>
@@ -51,6 +52,15 @@ const Carousel = () => {
               </SplideSlide>
             ))}
           </SplideTrack>
+          <div className="splide__arrows">
+            <button className="splide__arrow splide__arrow--prev">
+              {" "}
+              <LeftArrow />
+            </button>
+            <button className="splide__arrow splide__arrow--next">
+              <RightArrow />
+            </button>
+          </div>
         </Splide>
       </div>
     </div>
