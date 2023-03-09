@@ -8,7 +8,7 @@ const ArticleCard = ({ image, word, title}) => {
       <div>
         <h3>{title}</h3>
         <p>{word}</p>
-        <Link>Read more &#129046</Link>
+        <Link>Read more &#129046;</Link>
       </div>
     </div>
   );
