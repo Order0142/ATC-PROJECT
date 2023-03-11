@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
-import classes from "./articlecard.module.css";
+import classes from "./articleCard.module.css";
 
 const ArticleCard = ({ image, word, title }) => {
   return (
     <div className={classes.main}>
-      <img src={image} alt="" />
+      <div>
+        <img src={image} alt="" />
+      </div>
       <div>
         <h3>{title}</h3>
         <p>{word}</p>

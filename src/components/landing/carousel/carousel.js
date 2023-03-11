@@ -1,5 +1,5 @@
 import classes from "./carousel.module.css";
-import Avatar from "../../../asset/image/avatar.svg";
+// import Avatar from "../../../asset/image/avatar.svg";
 import { slideData } from "../../../constants/index.";
 import { Splide, SplideTrack, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css/core";
