@@ -1,9 +1,10 @@
 .main {
   width: 100%;
   background-color: #fff;
+  margin-top: 90px;
 }
 .main .article {
-  width: 85%;
+  width: 90%;
   margin: 0 auto;
   position: relative;
 }
@@ -13,10 +14,14 @@
   margin: 0 auto;
 }
 .cards {
-    width: 90%;
-    margin: 80px auto 69px;
+    width: 80%;
+    margin: 50px auto 69px;
     display: flex;
    
+  }
+  .articleContent h3 {
+    font-weight: 700;
+    font-size: 30px;
   }
 /* .eclipse,
 .dot {
@@ -34,10 +39,7 @@
   width: 10%;
 }
 
-.serviceContent h3 {
-  font-weight: 700;
-  font-size: 30px;
-}
+
 .serviceContent p {
   color: #7d7987;
   margin-top: 10px;

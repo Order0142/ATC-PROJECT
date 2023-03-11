@@ -67,18 +67,18 @@ export const slideData = [
 
 export const articleData = [
   {
-    image: ArtImg1,
-    title: "Disease detection, check up in the laboratory",
-    word: "In this case, the role of the health laboratory is very important to do a disease detection...",
-  },
-  {
-    image: ArtImg2,
-    title: "Disease detection, check up in the laboratory",
-    word: "In this case, the role of the health laboratory is very important to do a disease detection...",
-  },
-  {
     image: ArtImg3,
     title: "Disease detection, check up in the laboratory",
     word: "In this case, the role of the health laboratory is very important to do a disease detection...",
+  },
+  {
+    image: ArtImg1,
+    title: "Herbal medicines that are safe for consumption",
+    word: "Herbal medicine is very widely used at this time because of its very good for your health...",
+  },
+  {
+    image: ArtImg2,
+    title: "Natural care for healthy facial skin",
+    word: "A healthy lifestyle should start from now and also for your skin health. There are some...",
   },
 ];

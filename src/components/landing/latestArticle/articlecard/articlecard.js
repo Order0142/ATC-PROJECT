@@ -4,13 +4,11 @@ import classes from "./articleCard.module.css";
 const ArticleCard = ({ image, word, title }) => {
   return (
     <div className={classes.main}>
-      <div>
         <img src={image} alt="" />
-      </div>
-      <div>
+      <div className={classes.text}>
         <h3>{title}</h3>
         <p>{word}</p>
-        <Link>Read more &#129046;</Link>
+        <Link className={classes.link}>Read more &#129046;</Link>
       </div>
     </div>
   );
