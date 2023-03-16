@@ -1,6 +1,7 @@
 import { articleData } from "../../../constants/index.";
 import classes from "./latestArticle.module.css";
 import ArticleCard from "./articlecard/articlecard";
+import Button from "../../button/button";
 
 const LatestArticle = () => {
   return (
@@ -13,6 +14,9 @@ const LatestArticle = () => {
           {articleData.map((item, i) => (
             <ArticleCard {...item} key={i} />
           ))}
+        </div>
+        <div className={classes.viewbtn}>
+          <Button title="View all" />
         </div>
       </div>
     </div>

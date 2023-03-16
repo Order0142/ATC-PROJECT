@@ -23,6 +23,11 @@
     font-weight: 700;
     font-size: 30px;
   }
+  .viewbtn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 202px;
+  }
 /* .eclipse,
 .dot {
   position: absolute;
