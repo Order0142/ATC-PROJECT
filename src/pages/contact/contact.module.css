@@ -1,0 +1,25 @@
+.main {
+  width: 100%;
+  background: linear-gradient(
+    89.36deg,
+    rgba(6, 30, 247, 0.57) 0.51%,
+    rgba(118, 128, 216, 0.88) 99.43%
+  );
+}
+.contact {
+    width: 85%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.imgSec{
+    background-color: rgb(50, 139, 212);
+    height: 80%;
+}
+.formSec{
+    background-color: white;
+    height: 80%;
+    border-radius: 5px;
+}

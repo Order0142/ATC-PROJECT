@@ -4,14 +4,14 @@ import Button from "../../components/button/button";
 
 const Contact = () => {
   return (
-    <div>
-      <div>
-        <div>
+    <div className={classes.main}>
+      <div className={classes.contact}>
+        <div className={classes.imgSec}>
           <h2>welcome to our community</h2>
           <p>Create account and connect with Plantians</p>
           <img src={null} alt="" />
         </div>
-        <div>
+        <div className={classes.formSec}>
           <div>
             <h1>Get Started</h1>
             <p>Already have an account?</p>
