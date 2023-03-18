@@ -1,15 +1,16 @@
 import classes from "./contact.module.css";
 import { Link } from "react-router-dom";
 import Button from "../../components/button/button";
+import contactImg from "../../asset/image/contactImg.png"
 
 const Contact = () => {
   return (
     <div className={classes.main}>
       <div className={classes.contact}>
         <div className={classes.imgSec}>
-          <h2>welcome to our community</h2>
+          <h1>Welcome to<br />our community</h1>
           <p>Create account and connect with Plantians</p>
-          <img src={null} alt="" />
+          <img src={contactImg} alt="" />
         </div>
         <div className={classes.formSec}>
           <div className={classes.formsec1}>
@@ -28,6 +29,7 @@ const Contact = () => {
             <span>
               <Button title="Sign up with Facebook" />
             </span>
+            <p>Or</p>
           </div>
         </div>
       </div>
