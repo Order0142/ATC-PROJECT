@@ -21,11 +21,11 @@ const Contact = () => {
               </span>
             </p>
           </div>
-          <div>
-            <span className={classes.signUp}>
+          <div className={classes.signUp}>
+            <span>
               <Button title="Sign up with Google" />
             </span>
-            <span className={classes.signUp}>
+            <span>
               <Button title="Sign up with Facebook" />
             </span>
           </div>

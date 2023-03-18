@@ -9,32 +9,41 @@
   );
 }
 .contact {
-    width: 80%;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-.imgSec{
-    background-color: rgb(67, 113, 151);
-    height: 80%;
-    border-radius: 5px;
-    width: 35%;
+.imgSec {
+  background-color: #5B9BF3;
+  height: 80%;
+  border-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  width: 35%;
 }
-.formSec{
-    background-color: white;
-    height: 80%;
-    border-radius: 5px;  
+.formSec {
+  background-color: white;
+  height: 80%;
+  border-radius: 5px;
 }
 .formsec1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.formsec1 a{
+    color: #0B773C;
+}
+.signUp {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .signUp button {
-    border-radius: 5px;
-    margin: 5px;
+  border-radius: 5px;
+  margin: 5px;
 }
