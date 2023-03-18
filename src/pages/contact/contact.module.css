@@ -20,11 +20,21 @@
     background-color: rgb(67, 113, 151);
     height: 80%;
     border-radius: 5px;
-    width: 40%;
+    width: 35%;
 }
 .formSec{
     background-color: white;
     height: 80%;
+    border-radius: 5px;  
+}
+.formsec1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.signUp button {
     border-radius: 5px;
-    width: 40%;
+    margin: 5px;
 }

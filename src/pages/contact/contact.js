@@ -12,18 +12,20 @@ const Contact = () => {
           <img src={null} alt="" />
         </div>
         <div className={classes.formSec}>
-          <div>
+          <div className={classes.formsec1}>
             <h1>Get Started</h1>
-            <p>Already have an account?</p>
-            <span className={classes.signIn}>
-              <Link>Sign in</Link>
-            </span>
+            <p>
+              Already have an account?{" "}
+              <span className={classes.signIn}>
+                <Link>Sign in</Link>
+              </span>
+            </p>
           </div>
           <div>
-            <span>
+            <span className={classes.signUp}>
               <Button title="Sign up with Google" />
             </span>
-            <span>
+            <span className={classes.signUp}>
               <Button title="Sign up with Facebook" />
             </span>
           </div>
