@@ -39,7 +39,10 @@
     font-weight: 100;
 }
 .imgSec img{
-    
+    width: 370px;
+    margin-top: 30px;
+    margin-left: -15px;
+
 }
 .formSec {
   background-color: white;
