@@ -65,15 +65,30 @@
 .signUp {
   margin-left: 10px;
   margin-right: 10px;
-  margin-top: 30px;
+  margin-top: 25px;
 }
 .signUp button {
-  border: 1px solid #e0dada;
+  border: 1px solid #ebe5e5;
+  background-color: white;
   border-radius: 8px;
   margin: 5px;
   color: black;
-  padding-right: 15px;
-  padding-left: 45px;
+  line-height: 3;
+  padding-left: 35px;
+  padding-right: 10px;
+  position: relative;
+}
+.signUp button:hover{
+    background-color: #5b9bf3;
+    color: white;
+    transition: 0.5s ease-in;
+}
+.signUp img{
+    width:fit-content;
+    height: 30px;
+    position: absolute;
+    left: -5px;
+    top: 5px;
 }
 .signUp p {
   text-align: center;
