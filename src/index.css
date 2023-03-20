@@ -33,7 +33,6 @@ justify-content: space-between;
   border: none;
   background-color: white;
   margin-top: 40px;
-  position: relative;
 }
 .splide__arrow--prev.active svg path{
   fill: #7e9dc8;
