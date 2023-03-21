@@ -19,6 +19,7 @@
   margin-right: 40px;
 }
 .header nav a:hover{
-  border-bottom: 5px solid black;
-  transition: 0.7s ease;
+  border-bottom: 5px solid rgb(21, 33, 100);
+  padding-bottom: 3px;
+  /* transition: 0.7s ease-in; */
 }
