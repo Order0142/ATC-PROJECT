@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import classes from "./articlecard.module.css";
+import classes from "./articleCard.module.css";
 
 const ArticleCard = ({ image, word, title }) => {
   return (
