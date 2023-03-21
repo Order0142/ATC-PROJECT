@@ -51,10 +51,10 @@ const Contact = () => {
                 <input type="text" placeholder="Email" />
               </div>
               <div>
-                <label>Name</label>
+                <label>Password</label>
                 <input type="password" placeholder="Password" />
               </div>
-              <input type="submit" value="Create" />
+              <input className={classes.submit} type="submit" value="Create" />
             </form>
           </div>
         </div>
