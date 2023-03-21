@@ -41,7 +41,7 @@ const Contact = () => {
               </button>
             </span>
             <p>Or</p>
-            <form>
+            <form className={classes.form}>
               <div>
                 <label>Name</label>
                 <input type="text" placeholder="Name" />
@@ -54,6 +54,7 @@ const Contact = () => {
                 <label>Name</label>
                 <input type="password" placeholder="Password" />
               </div>
+              <input type="submit" value="Create" />
             </form>
           </div>
         </div>
