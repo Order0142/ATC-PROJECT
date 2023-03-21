@@ -5,6 +5,13 @@
   padding: 30px 25px 35px;
   z-index: 10;
 }
+.main:hover {
+  transform: scale(1.1);
+  background-image: linear-gradient(to right, hsl(236deg, 72%, 79%), hsl(237, 75%, 63%));
+  color: white;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  transition: all 0.8s ease-in;
+}
 
 .main > div {
   margin-top: 22px;
@@ -13,7 +20,7 @@
   margin-bottom: 22px;
 }
 .main p {
-  color: #7d7987;
+  /* color: #7d7987; */
   line-height: 28px;
   font-size: 16px;
   font-weight: 300;

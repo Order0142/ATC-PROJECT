@@ -11,10 +11,14 @@
 }
 .header nav a {
   text-decoration: none;
-  color: #1f1534;
-  opacity: 0.5;
+  color: #0d68e9;
+  opacity: 0.8;
   font-size: 18px;
 }
 .header nav a:not(:last-child) {
   margin-right: 40px;
+}
+.header nav a:hover{
+  border-bottom: 5px solid black;
+  transition: 0.7s ease;
 }
