@@ -134,3 +134,9 @@
   border-radius: 5px;
   color: white;
 }
+.submit:hover{
+  background-color: white;
+  color: #5B9BF3;
+  border: 1px solid #5B9BF3 ;
+  transition: .5s ease-in;
+}
