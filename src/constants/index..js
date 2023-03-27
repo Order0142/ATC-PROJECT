@@ -1,5 +1,9 @@
 import Search from "../asset/image/search.svg";
 import Bottle from "../asset/image/bottle.svg";
+import ConsultImg from "../asset/image/consultImg.svg"
+import DetailImg from "../asset/image/detailImg.svg"
+import EmergImg from "../asset/image/emergImg.svg"
+import TrackImg from "../asset/image/trackImg.svg"
 import Avatar from "../asset/image/avatar.svg";
 import ArtImg1 from "../asset/image/artImg1.png";
 import ArtImg2 from "../asset/image/artImg2.png";
@@ -17,22 +21,22 @@ export const serviceData = [
     word: "Buy  your medicines with our mobile application with a simple delivery system",
   },
   {
-    image: Search,
+    image: ConsultImg,
     title: "Consultation",
     word: "Free consultation with our trusted doctors and get the best recomendations",
   },
   {
-    image: Search,
+    image: DetailImg,
     title: "Details info",
     word: "Free consultation with our trusted doctors and get the best recomendations",
   },
   {
-    image: Search,
+    image: EmergImg,
     title: "Search Doctor",
     word: "Choose your doctor from thousands of specialist, general, and trusted hospitals",
   },
   {
-    image: Search,
+    image: TrackImg,
     title: "Search Doctor",
     word: "Choose your doctor from thousands of specialist, general, and trusted hospitals",
   },
