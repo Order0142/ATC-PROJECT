@@ -3,8 +3,28 @@ import { Link } from "react-router-dom";
 import contactImg from "../../asset/image/contactImg.png";
 import Google from "../../asset/image/Google.svg";
 import Facebook from "../../asset/image/Facebook.svg";
+import { useState } from "react";
 
 const Contact = () => {
+  const [value, setValue] = useState({
+    name: "",
+    email: "",
+    password: "",
+  });
+
+  // i use this function to get the values from each input, if you notice i spread the prevState i passed as argument inside the setValue function so i can get all my values
+  const handleChange = (e) => {
+    setValue((prevState) => ({
+      ...prevState,
+      [e.target.name]: e.target.value,
+    }));
+  };
+
+  // i just created a submit function and pass it to the input button so when you fill and click on submit you can see your values in the console
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(value);
+  };
   return (
     <div className={classes.main}>
       <div className={classes.contact}>
@@ -44,17 +64,40 @@ const Contact = () => {
             <form className={classes.form}>
               <div>
                 <label>Name</label>
-                <input type="text" placeholder="Name" />
+                <input
+                  name="name"
+                  value={value.name}
+                  type="text"
+                  placeholder="Name"
+                  onChange={handleChange}
+                />
               </div>
               <div>
                 <label>Email</label>
-                <input type="text" placeholder="Email" />
+                <input
+                  name="email"
+                  type="email"
+                  placeholder="Email"
+                  value={value.email}
+                  onChange={handleChange}
+                />
               </div>
               <div>
                 <label>Password</label>
-                <input type="password" placeholder="Password" />
+                <input
+                  name="password"
+                  type="password"
+                  placeholder="Password"
+                  value={value.password}
+                  onChange={handleChange}
+                />
               </div>
-              <input className={classes.submit} type="submit" value="Create" />
+              <input
+                className={classes.submit}
+                type="submit"
+                value="Create"
+                onClick={handleSubmit}
+              />
             </form>
           </div>
         </div>

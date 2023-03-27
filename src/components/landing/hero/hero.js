@@ -14,7 +14,7 @@ const Hero = () => {
           </p>
           <Button showBg title="Consult today" />
         </div>
-        <div>
+        <div className={classes.heroImage}>
           <img src={HeroImage} alt="" />
         </div>
       </div>
