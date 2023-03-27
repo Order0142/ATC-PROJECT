@@ -38,7 +38,7 @@ export const serviceData = [
   {
     image: TrackImg,
     title: "Search Doctor",
-    word: "Choose your doctor from thousands of specialist, general, and trusted hospitals",
+    word: "Choose your doctor from thousands of specialist, general, and trusted hospitals and Staff",
   },
 ];
 
