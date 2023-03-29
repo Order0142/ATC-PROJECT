@@ -4,13 +4,12 @@
   border-radius: 20px;
   padding: 30px 25px 35px;
   z-index: 10;
+  transition: all 0.5s ease-in;
 }
 .main:hover {
   transform: scale(1.1);
-  background-image: linear-gradient(to right, hsl(236, 66%, 83%), hsl(237, 39%, 56%));
-  color: white;
+  background: linear-gradient(175.68deg, #f3f7ff -10.48%, #deeefe 92.66%);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
-  transition: all 0.5s ease-in;
 }
 
 .main > div {

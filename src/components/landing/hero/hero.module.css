@@ -10,10 +10,10 @@
   justify-content: space-between;
   align-items: center;
 }
-.heroImage{
+.heroImage {
   width: 65%;
 }
-.heroImage img{
+.heroImage img {
   width: 100%;
 }
 .text {
@@ -34,3 +34,28 @@
   margin: 30px 0;
 }
 
+@media screen and (max-width: 425px) {
+  .main {
+    width: 100%;
+  }
+  .hero {
+    width: 90%;
+    justify-content: center;
+    flex-direction: column;
+    /* background-image: url(../../../asset/image/heroImage.png); */
+    background-size: contain;
+    background-blend-mode:difference;
+  }
+  .text {
+    width: 90%;
+    text-align: left;
+  }
+  .heroImage img {
+    display: none;
+  }
+  .text h3 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+}
