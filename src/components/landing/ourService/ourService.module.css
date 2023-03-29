@@ -58,4 +58,7 @@
   .cards {
     grid-template-columns: repeat(auto-fill, minmax(18rem, 3fr));
   }
+  .btn > button{
+    width: 90%;
+  }
 }
