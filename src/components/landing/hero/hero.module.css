@@ -40,6 +40,7 @@
   }
   .hero {
     width: 90%;
+    margin: 35px auto;
     justify-content: center;
     flex-direction: column;
     /* background-image: url(../../../asset/image/heroImage.png); */
@@ -57,5 +58,9 @@
     font-size: 40px;
     font-weight: 700;
     line-height: 50px;
+    padding-bottom: 15px;
+  }
+  .text button {
+    width: 100%;
   }
 }

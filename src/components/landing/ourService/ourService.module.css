@@ -49,3 +49,10 @@
 .btn > button{
   width: 15%;
 }
+@media screen and (max-width: 425px){
+  .serviceContent {
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
+  }
+}
