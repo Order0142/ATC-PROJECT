@@ -1,5 +1,5 @@
 import classes from "./healthcare.module.css";
-import SecImg2 from "../../../asset/image/secImg2.png"
+import SecImg2 from "../../../asset/image/secImg2.png";
 import Button from "../../button/button";
 
 const Healthcare = () => {
@@ -17,7 +17,9 @@ const Healthcare = () => {
             accessible on mobile and online for everyone. To us, it’s not just
             work. We take pride in the solutions we deliver
           </p>
-          <Button title="Learn more"/>
+          <div className={classes.btn}>
+            <Button title="Learn more" />
+          </div>
         </div>
       </div>
     </div>
