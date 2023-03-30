@@ -52,6 +52,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-content: center;
     overflow: hidden;
   }
   .mobileapp div img {
@@ -62,5 +63,24 @@
     text-align: left;
     padding-top: 5px;
     padding-left: 0px;
+  }
+  .text h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    text-align: center;
+    line-height: 45px;
+  }
+  .text p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 15px;
+    line-height: 30px;
+    color: #646368;
+  }
+  .btn > button {
+    width: 95%;
   }
 }
