@@ -40,7 +40,7 @@
 .text button {
   margin: 30px 0;
 }
-@media screen and (max-width: 425px){
+@media screen and (max-width: 425px) {
   .main {
     width: 100%;
   }
@@ -54,5 +54,30 @@
   }
   .healthcare div img {
     display: none;
+  }
+  .text {
+    width: 90%;
+    padding-top: 15px;
+    padding-right: 0px;
+  }
+  .text h3 {
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    font-size: 30px;
+    line-height: 35px;
+    padding-bottom: 20px;
+  }
+  .text p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 30px;
+    color: #7d7987;
+    text-align: center;
+  }
+  .text button {
+    width: 100%;
+    margin: 30px auto;
   }
 }
