@@ -43,6 +43,7 @@
 @media screen and (max-width: 425px) {
   .main {
     width: 100%;
+    margin: 60px auto;
     background: linear-gradient(175.68deg, #f3f7ff -10.48%, #deeefe 92.66%);
   }
   .healthcare {
