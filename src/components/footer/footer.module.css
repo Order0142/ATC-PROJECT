@@ -1,19 +1,27 @@
 .main {
-    width: 100%;
-    padding: 118px 110px;
-    background-image: url(../../asset/image/footer-bg.png);
-    background-size: cover;
+  width: 100%;
+  padding: 118px 110px;
+  background-image: url(../../asset/image/footer-bg.png);
+  background-size: cover;
 }
 .footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    line-height: 2;
-    font-family: 'Mulish';
-    color: white;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 2;
+  font-family: "Mulish";
+  color: white;
 }
 p {
-    font-size: 13px;
-
+  font-size: 13px;
+}
+@media screen and (max-width: 425px) {
+  .main {
+    width: 100%;
+  }
+  .footer{
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
