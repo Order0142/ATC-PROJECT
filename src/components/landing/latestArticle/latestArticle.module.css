@@ -28,25 +28,23 @@
     justify-content: center;
     margin-bottom: 202px;
   }
-/* .eclipse,
-.dot {
-  position: absolute;
-  z-index: 1;
-}
-.eclipse {
-  width: 55%;
-  top: 110px;
-  left: -120px;
-}
-.dot {
-  right: 0;
-  top: 50%;
-  width: 10%;
-}
-
-
-.serviceContent p {
-  color: #7d7987;
-  margin-top: 10px;
-}
- */
+  @media screen and (max-width: 425px){
+  .main {
+    width: 100%;
+  }
+  .articleContent h3 {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .cards {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .viewbtn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 202px;
+  }
+  }
