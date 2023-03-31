@@ -49,7 +49,7 @@ export const slideData = [
     title: "Edward Newgate",
     subtitle: "Founder Circle",
     article:
-      "“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”",
+      "“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely.”",
   },
   {
     heading: "What our customer are saying",
@@ -57,7 +57,7 @@ export const slideData = [
     title: "Yusuf Bankole",
     subtitle: "Founder Circle",
     article:
-      "“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”",
+      "“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely.”",
   },
   {
     heading: "What our customer are saying",
@@ -65,7 +65,7 @@ export const slideData = [
     title: "Gbenga Adewale",
     subtitle: "Founder Circle",
     article:
-      "“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”",
+      "“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely.”",
   },
 ];
 

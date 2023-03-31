@@ -65,3 +65,50 @@
   /* height: 400px; */
   margin: 0 auto;
 }
+@media screen and (max-width: 425px){
+.splide {
+  width: 350px;
+}
+.main section {
+  flex-direction: column;
+}
+.main section div,
+.main section .article {
+  width: 100%;
+}
+.slideContent h3 {
+  text-align: center;
+  font-size: 25px;
+  color: #fff;
+}
+
+.main section div {
+  display: flex;
+  flex-direction: column;
+}
+.main section div article h4 {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.carousel {
+  /* width: 900; */
+  padding: 20px 30px;
+  border-radius: 24px;
+}
+.main section div > img {
+  margin-right: 0px;
+}
+.main section div article p {
+  font-size: 15px;
+  text-align: center;
+  color: #fff;
+}
+.main section .article {
+  font-size: 16px;
+  line-height: 25px;
+  color: #fff;
+  padding-top: 10px;
+  text-align: center;
+}
+}
