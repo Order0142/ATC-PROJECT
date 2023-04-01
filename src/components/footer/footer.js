@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className={classes.main}>
       <div className={classes.footer}>
-        <div>
+        <div className={classes.logo}>
           <img src={Flogo} alt="" />
           <p>
             Trafalgar provides progressive, and affordable

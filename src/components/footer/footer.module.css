@@ -18,10 +18,32 @@ p {
 @media screen and (max-width: 425px) {
   .main {
     width: 100%;
+    padding: 15px 0px;
+    background-image: none;
+    background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
   }
   .footer{
-    width: 90%;
+    width: 95%;
+    display: inline-block;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+  }
+  .footer div img {
+    padding: 0px 25vw;
+  }
+  .footer .logo p {
+    padding: 0px 20px;
+    font-size: 15px;
+  }
+  .footer div h3{
+    font-size: 25px;
+    margin-left: 0px;
+    text-align: center;
+  }
+  p {
+    font-size: 15px;
+    text-align: center;
+    text-shadow: 1px 1px #474343;
   }
 }
