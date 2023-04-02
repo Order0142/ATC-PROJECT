@@ -117,30 +117,60 @@
   padding: 15px 5px;
   border: none;
   margin-bottom: 10px;
-  
 }
 
 .form div input:focus {
   outline: none;
 }
-.form div input:focus::placeholder{
+.form div input:focus::placeholder {
   color: transparent;
 }
-.submit{
+.submit {
   width: 280px;
-  padding: 15px 0px ;
-  background-color: #5B9BF3;
+  padding: 15px 0px;
+  background-color: #5b9bf3;
   border: none;
   border-radius: 5px;
   color: white;
   margin-top: 15px;
 }
-.submit:hover{
+.submit:hover {
   background-color: white;
-  color: #5B9BF3;
-  border: 1px solid #5B9BF3 ;
-  transition: .5s ease-in;
+  color: #5b9bf3;
+  border: 1px solid #5b9bf3;
+  transition: 0.5s ease-in;
 }
-::placeholder{
-  color: #5B9BF3;
+::placeholder {
+  color: #5b9bf3;
+}
+@media screen and (max-width: 425px) {
+  .main {
+    width: 100%;
+  }
+  .contact {
+    width: 90%;
+    height: 120vh;
+    margin: 55px 25px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .imgSec {
+    display: none;
+  }
+  .formSec {
+    background-color: white;
+    height: 80%;
+    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .signUp button {
+    width: 100%;
+    margin: 5px 0px;
+  }
+  .form div input {
+    margin-bottom: 15px;
+  }
 }
