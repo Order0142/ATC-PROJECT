@@ -27,5 +27,12 @@
 @media screen and (max-width: 425px){
   .main{
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .main p {
+    line-height: 25px;
   }
 }

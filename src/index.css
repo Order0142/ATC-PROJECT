@@ -5,11 +5,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 body {
   max-width: 1440px;
   margin: 0 auto;
   font-family: "Mulish", sans-serif;
+  background-color: #fff;
 }
 .header nav .active {
   color: #1f1534 !important;
